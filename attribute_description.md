@@ -19,3 +19,20 @@ There are multiple attributes defining the attack type, but only the first one '
 ' seems to have values for most of the attacks, hence that is the one we will be using in our analysis.
 Next, we have a few attributes describing the target, such as: type, subtype, nationality.
 As well as this, we have the name of the group that carried out the attack. There is a field conating the motive for the attack, but it is surprisingly sparse. As well as this, there is a weapon type, again, surprisingly sparse.
+'npreps' indicates the number of terrorists that took part in the incident.
+'nperpcap' shows the number of perpetrators taken into custody.
+'claimed', whether responsibility was claimed for the attack.
+'claimmode', the way the claim was made.
+'compclaim', whether multiple claims were made.
+'nkill', number of people killed in the incident.
+'nkillus', number of us citizens killed in the incident.
+'nkillter', number of perpatrator fatalities.
+'nwound', number of people injured non-fatally in the incident.
+'nwoundus', number of us citizens injured non-fatally in the incident.
+'nwoundtex', number of perpatrator injuries.
+'property', whether the incident resultet into property damage.
+'propvalue', the value of the damage.
+'ishostkid', whether there were hostages.
+'nhostkid', number of hostages, sparse.
+'nhostkidus', us hostages.
+There are multiple attribute concerning ransom for hostages, how much was asked, how much was given. As well as this, the outcome of the kidnapping, how many people survived, etc. Then, there is a group of attributes concerning whether the attack was carried out internationally or domestically.
