@@ -2,10 +2,10 @@
 
 From these attributes we could try to find the following information:
 	
-	#1. General goals
+	# General goals
 
-	##1.1 Most popular
-		*1. The places where terrorist attacks happen most often (country, city, etc.)
+	## Most popular
+		* The places where terrorist attacks happen most often (country, city, etc.)
 		* Most popular goal of the attack
 		* Most popular type of the attack
 		* The correlation between the goal and the type of the attack
