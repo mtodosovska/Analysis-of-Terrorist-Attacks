@@ -10,19 +10,15 @@ From these attributes we could try to find the following information:
 		* Most popular type of the attack
 		* The correlation between the goal and the type of the attack
 		* General description of targets (position, nationality...) - most popular
-		* Information about the groups that have carried out the attacks
-
+		
 	## Other
 		* number of attacks every year, visualise, and show a trend
 		* number of casualties every year, visualise, and show a trend
 		* hostages (number, ransom asked, ransom paid, length of kiddnapping, outcome)
-		* us citizens
+		
 		* are attacks international or not, visualise
 		* [possible, if it makes sense] clasters of geographical locations where attacks happened, the conclusion would be where most attacks occur
-		* diferentiate between lethal and nonlethal attacks and show them visually
-		* types of attacks over time
-		* time of year/week/day when most of the attacks happen
-		* visualise targets, perhaps even targets over time
+		* numbers of lethal and nonlethal attacks and show them visually
 		* is there a correlation between success, suicide, and/or multiple incidents (any combination of two will do, whichever makes the most sense)
 	
 	#Specific goals
