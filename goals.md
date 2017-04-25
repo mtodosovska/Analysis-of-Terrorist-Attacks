@@ -1,5 +1,7 @@
 > https://csis-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/150618_Patterns_in_Global_Terrorism_in_2014.pdf
 
+It is good to have a hypotesis before we start. For example the number of attacks every year is growing.
+
 From these attributes we could try to find the following information:
 	
 	# General goals
