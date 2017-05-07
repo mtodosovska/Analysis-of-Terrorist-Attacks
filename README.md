@@ -18,7 +18,7 @@ We have come to the following conclusions:
 ![Number of attacks per year](attacksPerYear.png)
 ![Casualties per year](casualtiesPerYear.png)	
 
-### .
+### 
 	
 We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
 	
@@ -34,8 +34,8 @@ We can see that the general number of attacks per year has grown. As well as thi
 	P(Suicide*P(Success)= 0.02749936858568745
 	The success of the attack is independent of whether the attack was a suicide.
 
-	* The 9 most dangerous cities according to the number of attacks are:
-	'''
+### The 9 most dangerous cities according to the number of attacks are:
+	
 	['Baghdad' '6237']
  	['Karachi' '2530']
  	['Lima' '2358']
@@ -45,9 +45,9 @@ We can see that the general number of attacks per year has grown. As well as thi
  	['San Salvador' '1547']
  	['Mogadishu' '1169']
  	['Istanbul' '999']]
-	'''
-	* But, the 9 most dangerous cities according to the number of victims are:
-	'''
+	
+### But, the 9 most dangerous cities according to the number of victims are:
+	
 	 ['Baghdad' '18638.800000000003']
 	 ['Karachi' '3555.0']
 	 ['New York City' '2815.0']
@@ -61,7 +61,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
 
 ### Top 10 countries with most victims:
-	'''
+	
 	[['Iraq' '58855.000000000015']
 	 ['Afghanistan' '27018.000000000015']
 	 ['Pakistan' '21597.0']
@@ -72,10 +72,10 @@ We can clearly see that the most dangerous city is Baghdad with 6237 attacks and
 	 ['Peru' '12752.0']
 	 ['El Salvador' '12053.0']
 	 ['Algeria' '11082.0']]
-	'''
+	
 
 ### Top 10 most attacked countries:
-	'''
+	
 	[['Iraq' '18770']
 	 ['Pakistan' '12768']
 	 ['India' '9940']
@@ -135,7 +135,7 @@ It is noticeable  that unknown is only tenth.
 	'''
 
 If we compare these to the weapons used for the 10 deadliest attacks, we can see that they are contained within the deadliest weapons. The weapons used for the 10 deadliest attacks are as follows:
-	'''
+	
 	['Incendiary', 1500.0
 	'Firearms', 1381.5
 	'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)', 1381.5
@@ -146,10 +146,10 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	'Incendiary', 500.0
 	'Explosives/Bombs/Dynamite', 422.0
 	'Firearms',  400.0]
-	'''
+	
 
 ### The weapons that are used the most:
-	'''
+	
 	[['Explosives/Bombs/Dynamite' '79126']
 	 ['Firearms' '51802']
 	 ['Unknown' '12388']
@@ -161,10 +161,10 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	  '104']
 	 ['Other' '92']
 	 ['Biological' '35']]
-	'''
+	
 
 ### Most common types of attacks:
-	 '''
+	 
 	 [['Bombing/Explosion' '75963']
 	 ['Armed Assault' '37554']
 	 ['Assassination' '17582']
@@ -174,11 +174,11 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	 ['Hostage Taking (Barricade Incident)' '835']
 	 ['Unarmed Assault' '828']
 	 ['Hijacking' '556']]
-	 '''
+	 
 
 ### Deadliest types of attacks:
 
-	 '''
+	 
 	 [['Armed Assault' '145287.4699999802']
 	 ['Bombing/Explosion' '129276.09999999983']
 	 ['Unknown' '23962.840000000004']
@@ -188,10 +188,10 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	 ['Facility/Infrastructure Attack' '3305.0099981999965']
 	 ['Hostage Taking (Barricade Incident)' '2530.0']
 	 ['Unarmed Assault' '748.0']]
-	 '''
+	 
 
 ### Groups that claim responsibility for most lives:
-	 '''
+	 
 	 [['Unknown' '102910.67000000006']
 	 ['Taliban' '19465.0']
 	 ['Islamic State of Iraq and the Levant (ISIL)' '19224.33']
@@ -212,10 +212,10 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	 ["Lord's Resistance Army (LRA)" '3107.9999999799998']
 	 ['Sikh Extremists' '2812.0']
 	 ['National Union for the Total Independence of Angola (UNITA)' '2726.0']]
-	 '''
+	 
 
 ### Groups that claim responsibility most often:
-	 '''
+	 
 	 [['Unknown' '71922']
 	 ['Taliban' '5502']
 	 ['Shining Path (SL)' '4548']
@@ -237,7 +237,6 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	 ['Nicaraguan Democratic Force (FDN)' '895']
 	 ['Al-Qaida in the Arabian Peninsula (AQAP)' '893']]
 
-	 '''
 
 ### The correlation between the number of members and the number of attacks of a group:
 	 The Pearson correlation coefficient between the number of attacks and the members of is: -0.0178216906069
