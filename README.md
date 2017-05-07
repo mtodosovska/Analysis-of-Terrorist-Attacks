@@ -1,16 +1,17 @@
 # PR17MTDSZG
 ## Goals
 The data represents all recorded terroristic attacks form 1973, to 2015. We have chosen the following goals:
-	### Number of attacks every year
-	- [1. Number of casualties every year]
-	- [2. Numbers of lethal and nonlethal attacks]
-	- [3. Correlation between success, suicide attacks]
-	- [4. What is the most dangerous city/country to live in]
-	- [5. What is the most dangerous profession to be a part of]
-	- [6. What is the weapon that is the most used]
-	- [7. What are the groups that claim responsibility most often]
-	- [8. What is the correlation between the number of attacks they've claimed and the number of members thay have.]
-
+	
+	 Number of attacks every year
+	 Number of casualties every year
+	 Numbers of lethal and nonlethal attacks
+	 Correlation between success, suicide attacks
+	 What is the most dangerous city/country to live in
+	 What is the most dangerous profession to be a part of
+	 What is the weapon that is the most used
+	 What are the groups that claim responsibility most often
+	 What is the correlation between the number of attacks they've claimed and the number of members thay have.
+	
 ## Conclusions
 We have come to the following conclusions:
 	
