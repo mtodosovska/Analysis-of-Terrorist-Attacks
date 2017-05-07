@@ -16,7 +16,7 @@ We have come to the following conclusions:
 	
 ### Number of attacks every year:
 ![Number of attacks per year](attacksPerYear.png)
-### We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
+We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
 
 ![Casualties per year](casualtiesPerYear.png)	
 	
@@ -244,7 +244,7 @@ We have come to the following conclusions:
 
 	 It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
 
-![Attacks and members](correlationAttacksMembers.png)
-![Attacks and killings](correlationAttacksKillings.png)
-![Killings and members](correlationKillingsMembers.png)
+![Attacks and members](corellationAttacksMembers.png)
+![Attacks and killings](corellationAttacksKillings.png)
+![Killings and members](corellationKillingsMembers.png)
 	 
