@@ -14,17 +14,17 @@ The data represents all recorded terroristic attacks form 1973, to 2015. We have
 ##Conclusions
 We have come to the following conclusions:
 	
-	* Number of attacks every year:
-	![alt text](attacksPerYear.png)
+### Number of attacks every year:
+![Number of attacks per year](attacksPerYear.png)
+### We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
 
-	* We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
+![Casualties per year](casualtiesPerYear.png)	
+	
 
-	![alt text](lethal.png)
+###A representation of lethal vs nonlethal attacks:
+	![Lethal vs nonlethal attacks](lethal.png)
 
-	* A representation of lethal vs nonlethal attacks:
-	![alt text](casualtiesPerYear.png)	
-
-	* The dependence of an attack being a suicide and a success:
+###The dependence of an attack being a suicide and a success:
 	
 	P(Success|Suicide)= 0.8928945713686859
 	P(Success|not Suicide)= 0.9319741317491332
@@ -58,7 +58,7 @@ We have come to the following conclusions:
 	'''
 	We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
 
-	* Top 10 countries with most victims:
+###Top 10 countries with most victims:
 	'''
 	[['Iraq' '58855.000000000015']
 	 ['Afghanistan' '27018.000000000015']
@@ -72,7 +72,7 @@ We have come to the following conclusions:
 	 ['Algeria' '11082.0']]
 	'''
 
-	* Top 10 most attacked countries:
+### Top 10 most attacked countries:
 	'''
 	[['Iraq' '18770']
 	 ['Pakistan' '12768']
@@ -86,7 +86,7 @@ We have come to the following conclusions:
 	 ['Turkey' '3557']]
 	'''
 
-	* 10 most attacked professions:
+### 10 most attacked professions:
 	'''
 	[['Private Citizens & Property' '35877']
 	 ['Military' '22924']
@@ -102,7 +102,7 @@ We have come to the following conclusions:
 
 	It is noticeable  that unknown is only tenth.
 
-	* 10 most killed professions
+### 10 most killed professions
 	'''
 	[['Private Citizens & Property' '117262.86999997996']
 	 ['Military' '86367.67999999995']
@@ -116,7 +116,7 @@ We have come to the following conclusions:
 	 ['Violent Political Party' '3497.04']]
 	'''
 
-	* The weapons that kill the most are:
+### The weapons that kill the most are:
 
 	'''
 	[['Firearms' '156474.47000000108']
@@ -146,7 +146,7 @@ We have come to the following conclusions:
 	'Firearms',  400.0]
 	'''
 
-	* The weapons that are used the most:
+### The weapons that are used the most:
 	'''
 	[['Explosives/Bombs/Dynamite' '79126']
 	 ['Firearms' '51802']
@@ -161,7 +161,7 @@ We have come to the following conclusions:
 	 ['Biological' '35']]
 	'''
 
-	 * Most common types of attacks:
+### Most common types of attacks:
 	 '''
 	 [['Bombing/Explosion' '75963']
 	 ['Armed Assault' '37554']
@@ -174,7 +174,7 @@ We have come to the following conclusions:
 	 ['Hijacking' '556']]
 	 '''
 
-	 * Deadliest types of attacks:
+### Deadliest types of attacks:
 
 	 '''
 	 [['Armed Assault' '145287.4699999802']
@@ -188,7 +188,7 @@ We have come to the following conclusions:
 	 ['Unarmed Assault' '748.0']]
 	 '''
 
-	 * Groups that claim responsibility for most lives:
+### Groups that claim responsibility for most lives:
 	 '''
 	 [['Unknown' '102910.67000000006']
 	 ['Taliban' '19465.0']
@@ -212,7 +212,7 @@ We have come to the following conclusions:
 	 ['National Union for the Total Independence of Angola (UNITA)' '2726.0']]
 	 '''
 
-	 * Groups that claim responsibility most often:
+### Groups that claim responsibility most often:
 	 '''
 	 [['Unknown' '71922']
 	 ['Taliban' '5502']
@@ -237,14 +237,14 @@ We have come to the following conclusions:
 
 	 '''
 
-	 * The correlation between the number of members and the number of attacks of a group:
+### The correlation between the number of members and the number of attacks of a group:
 	 The Pearson correlation coefficient between the number of attacks and the members of is: -0.0178216906069
 	 The Pearson correlation coefficient between the number of attacks and the killings of is: 0.965210133435
 	 The Pearson correlation coefficient between the number of killings and the members of is: -0.0131359157301
 
 	 It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
 
-	 ![alt text](correlationAttacksMembers.png)
-	 ![alt text](correlationAttacksKillings.png)
-	 ![alt text](correlationKillingsMembers.png)
+![Attacks and members](correlationAttacksMembers.png)
+![Attacks and killings](correlationAttacksKillings.png)
+![Killings and members](correlationKillingsMembers.png)
 	 
