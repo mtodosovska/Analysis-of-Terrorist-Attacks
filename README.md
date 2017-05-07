@@ -16,13 +16,15 @@ We have come to the following conclusions:
 	
 ### Number of attacks every year:
 ![Number of attacks per year](attacksPerYear.png)
-We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
-
 ![Casualties per year](casualtiesPerYear.png)	
+
+### .
+	
+We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
 	
 
 ### A representation of lethal vs nonlethal attacks:
-	![Lethal vs nonlethal attacks](lethal.png)
+![Lethal vs nonlethal attacks](lethal.png)
 
 ### The dependence of an attack being a suicide and a success:
 	
@@ -56,7 +58,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 	 ['Maiduguri' '1958.9999999999998']
 	 ['Ramadi' '1853.67']]
 	'''
-	We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
+We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
 
 ### Top 10 countries with most victims:
 	'''
@@ -100,7 +102,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 	 ['Unknown' '3805']]
 	'''
 
-	It is noticeable  that unknown is only tenth.
+It is noticeable  that unknown is only tenth.
 
 ### 10 most killed professions
 	'''
@@ -132,7 +134,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 	 ['Biological' '9.0']]
 	'''
 
-	If we compare these to the weapons used for the 10 deadliest attacks, we can see that they are contained within the deadliest weapons. The weapons used for the 10 deadliest attacks are as follows:
+If we compare these to the weapons used for the 10 deadliest attacks, we can see that they are contained within the deadliest weapons. The weapons used for the 10 deadliest attacks are as follows:
 	'''
 	['Incendiary', 1500.0
 	'Firearms', 1381.5
@@ -242,7 +244,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 	 The Pearson correlation coefficient between the number of attacks and the killings of is: 0.965210133435
 	 The Pearson correlation coefficient between the number of killings and the members of is: -0.0131359157301
 
-	 It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
+It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
 
 ![Attacks and members](corellationAttacksMembers.png)
 ![Attacks and killings](corellationAttacksKillings.png)
