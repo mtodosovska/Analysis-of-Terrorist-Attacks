@@ -56,7 +56,7 @@ We have come to the following conclusions:
 	 ['Maiduguri' '1958.9999999999998']
 	 ['Ramadi' '1853.67']]
 	'''
-	We can clearly see that the most dangerous city is Baghdad woth 6237 attcks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example,  Lima is nowhere to be found in the top 10 cities by killings, but it is third in the number of attacks, wheras New York is not in the top 10 in the number of attacks, but is third in the number of victims. 
+	We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
 
 	* Top 10 countries with most victims:
 	'''
@@ -100,7 +100,7 @@ We have come to the following conclusions:
 	 ['Unknown' '3805']]
 	'''
 
-	It is noticable that unknown is only tenth.
+	It is noticeable  that unknown is only tenth.
 
 	* 10 most killed professions
 	'''
@@ -130,6 +130,20 @@ We have come to the following conclusions:
 	 ['Sabotage Equipment' '49.0']
 	 ['Other' '46.0']
 	 ['Biological' '9.0']]
+	'''
+
+	If we compare these to the weapons used for the 10 deadliest attacks, we can see that they are contained within the deadliest weapons. The weapons used for the 10 deadliest attacks are as follows:
+	'''
+	['Incendiary', 1500.0
+	'Firearms', 1381.5
+	'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)', 1381.5
+	'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)', 1180.0
+	'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)', 670.0
+	'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)', 518.0
+	'Firearms', 517.0
+	'Incendiary', 500.0
+	'Explosives/Bombs/Dynamite', 422.0
+	'Firearms',  400.0]
 	'''
 
 	* The weapons that are used the most:
@@ -229,4 +243,8 @@ We have come to the following conclusions:
 	 The Pearson correlation coefficient between the number of killings and the members of is: -0.0131359157301
 
 	 It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
+
+	 ![alt text](correlationAttacksMembers.png)
+	 ![alt text](correlationAttacksKillings.png)
+	 ![alt text](correlationKillingsMembers.png)
 	 
