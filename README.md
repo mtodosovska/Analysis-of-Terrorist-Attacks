@@ -11,7 +11,7 @@ The data represents all recorded terroristic attacks form 1973, to 2015. We have
 	* What are the groups that claim responsibility most often
 	* What is the correlation between the number of attacks they've claimed and the number of members thay have.
 
-##Conclusions
+## Conclusions
 We have come to the following conclusions:
 	
 ### Number of attacks every year:
@@ -21,10 +21,10 @@ We can see that the general number of attacks per year has grown. As well as thi
 ![Casualties per year](casualtiesPerYear.png)	
 	
 
-###A representation of lethal vs nonlethal attacks:
+### A representation of lethal vs nonlethal attacks:
 	![Lethal vs nonlethal attacks](lethal.png)
 
-###The dependence of an attack being a suicide and a success:
+### The dependence of an attack being a suicide and a success:
 	
 	P(Success|Suicide)= 0.8928945713686859
 	P(Success|not Suicide)= 0.9319741317491332
@@ -58,7 +58,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 	'''
 	We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
 
-###Top 10 countries with most victims:
+### Top 10 countries with most victims:
 	'''
 	[['Iraq' '58855.000000000015']
 	 ['Afghanistan' '27018.000000000015']
@@ -246,5 +246,5 @@ We can see that the general number of attacks per year has grown. As well as thi
 
 ![Attacks and members](corellationAttacksMembers.png)
 ![Attacks and killings](corellationAttacksKillings.png)
-![Killings and members](corellationKillingsMembers.png)
+![Killings and members](corellationMembersKillings.png)
 	 
