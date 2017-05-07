@@ -1,15 +1,15 @@
 # PR17MTDSZG
 ## Goals
 The data represents all recorded terroristic attacks form 1973, to 2015. We have chosen the following goals:
-	* Number of attacks every year
-	* Number of casualties every year
-	* Numbers of lethal and nonlethal attacks
-	* Correlation between success, suicide attacks
-	* What is the most dangerous city/country to live in
-	* What is the most dangerous profession to be a part of
-	* What is the weapon that is the most used
-	* What are the groups that claim responsibility most often
-	* What is the correlation between the number of attacks they've claimed and the number of members thay have.
+	### Number of attacks every year
+	- [1. Number of casualties every year]
+	- [2. Numbers of lethal and nonlethal attacks]
+	- [3. Correlation between success, suicide attacks]
+	- [4. What is the most dangerous city/country to live in]
+	- [5. What is the most dangerous profession to be a part of]
+	- [6. What is the weapon that is the most used]
+	- [7. What are the groups that claim responsibility most often]
+	- [8. What is the correlation between the number of attacks they've claimed and the number of members thay have.]
 
 ## Conclusions
 We have come to the following conclusions:
@@ -57,7 +57,7 @@ We can see that the general number of attacks per year has grown. As well as thi
 	 ['Beirut' '1963.0']
 	 ['Maiduguri' '1958.9999999999998']
 	 ['Ramadi' '1853.67']]
-	'''
+	
 We can clearly see that the most dangerous city is Baghdad with 6237 attacks and 18638 victims in total. It is interesting to note, however, that the number of attacks and victims alike, for which the city is unknown is bigger than the number of attacks and victims of any known city. It is also notable that there are cities that have been attacked more often, but with less victims, than cities that have been attacked less often but with more victims. For example Lima is not found in the top 10 cities by killings, but it is third in the number of attacks, whereas New York is not in the top 10 in the number of attacks, but is third in the number of victims. However, if we check the numbers, it turns out that Lima has 797 recorded victims, but at the same time it has 227 attacks where the number of victims was unknown. Following this, Santiago has 163 victims, but 264 attacks with unknown number of victims.
 
 ### Top 10 countries with most victims:
@@ -86,10 +86,10 @@ We can clearly see that the most dangerous city is Baghdad with 6237 attacks and
 	 ['El Salvador' '5320']
 	 ['United Kingdom' '4992']
 	 ['Turkey' '3557']]
-	'''
+	
 
 ### 10 most attacked professions:
-	'''
+	
 	[['Private Citizens & Property' '35877']
 	 ['Military' '22924']
 	 ['Police' '21241']
@@ -100,12 +100,12 @@ We can clearly see that the most dangerous city is Baghdad with 6237 attacks and
 	 ['Educational Institution' '3947']
 	 ['Religious Figures/Institutions' '3891']
 	 ['Unknown' '3805']]
-	'''
+	
 
 It is noticeable  that unknown is only tenth.
 
 ### 10 most killed professions
-	'''
+	
 	[['Private Citizens & Property' '117262.86999997996']
 	 ['Military' '86367.67999999995']
 	 ['Police' '44541.34500000004']
@@ -116,11 +116,11 @@ It is noticeable  that unknown is only tenth.
 	 ['Terrorists/Non-State Militia' '7373.67']
 	 ['Airports & Aircraft' '3570.49']
 	 ['Violent Political Party' '3497.04']]
-	'''
+	
 
 ### The weapons that kill the most are:
 
-	'''
+	
 	[['Firearms' '156474.47000000108']
 	 ['Explosives/Bombs/Dynamite' '141923.1499999998']
 	 ['Unknown' '31880.039999999997']
@@ -132,7 +132,7 @@ It is noticeable  that unknown is only tenth.
 	 ['Sabotage Equipment' '49.0']
 	 ['Other' '46.0']
 	 ['Biological' '9.0']]
-	'''
+	
 
 If we compare these to the weapons used for the 10 deadliest attacks, we can see that they are contained within the deadliest weapons. The weapons used for the 10 deadliest attacks are as follows:
 	
