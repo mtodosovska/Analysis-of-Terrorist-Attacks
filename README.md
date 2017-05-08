@@ -249,3 +249,6 @@ It is clear that the number of members does not have much influence neither on t
 
 ### Analysis about ISI attacks:
 ![Number of attacks by ISI per year](ISIattacksPerYear.png)
+![Weapons used by ISI](ISIweapons.png)
+
+From this image we can notice that most common weapon that ISI uses is explosives/bombs/dynamite, which is used in more than a half of their attacks.
