@@ -11,6 +11,7 @@ The data represents all recorded terrorist attacks form 1973, to 2015. We have c
 - What is the weapon that is used the most;
 - Which are the groups that claim responsibility most often;
 - What is the correlation between the number of attacks they have claimed and the number of members they have.
+- ISI's analysis: number of attacks they had carried out per year, the most common weapon they use, their most common target etc.
 	
 ## Conclusions
 We have come to the following conclusions:
@@ -252,3 +253,8 @@ It is clear that the number of members does not have much influence neither on t
 ![Weapons used by ISI](ISIweapons.png)
 
 From this image we can notice that most common weapon that ISI uses is explosives/bombs/dynamite, which is used in more than a half of their attacks.
+
+![ISI's target](ISItarget.png)
+
+From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that all the attacks so far are registered in Iraq.
+
