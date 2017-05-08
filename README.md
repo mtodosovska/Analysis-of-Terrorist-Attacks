@@ -1,16 +1,16 @@
 # PR17MTDSZG
 ## Goals
-The data represents all recorded terroristic attacks form 1973, to 2015. We have chosen the following goals:
+The data represents all recorded terrorist attacks form 1973, to 2015. We have chosen the following goals:
 	
-	 Number of attacks every year
-	 Number of casualties every year
-	 Numbers of lethal and nonlethal attacks
-	 Correlation between success, suicide attacks
-	 What is the most dangerous city/country to live in
-	 What is the most dangerous profession to be a part of
-	 What is the weapon that is the most used
-	 What are the groups that claim responsibility most often
-	 What is the correlation between the number of attacks they've claimed and the number of members thay have.
+- Number of attacks every year;
+- Number of casualties every year;
+- Numbers of lethal and non-lethal attacks;
+- Correlation between success, suicide attacks;
+- What is the most dangerous city/country to live in;
+- What is the most dangerous profession to be a part of;
+- What is the weapon that is used the most;
+- Which are the groups that claim responsibility most often;
+- What is the correlation between the number of attacks they have claimed and the number of members they have.
 	
 ## Conclusions
 We have come to the following conclusions:
@@ -18,22 +18,20 @@ We have come to the following conclusions:
 ### Number of attacks every year:
 ![Number of attacks per year](attacksPerYear.png)
 ![Casualties per year](casualtiesPerYear.png)	
-
-### 
 	
 We can see that the general number of attacks per year has grown. As well as this, we can see that the number of casualties every year grows accordingly, which is not surprising.
 	
-
 ### A representation of lethal vs nonlethal attacks:
 ![Lethal vs nonlethal attacks](lethal.png)
 
 ### The dependence of an attack being a suicide and a success:
 	
-	P(Success|Suicide)= 0.8928945713686859
-	P(Success|not Suicide)= 0.9319741317491332
-	P(Success * Suicide)= 0.027173219707600848
-	P(Suicide*P(Success)= 0.02749936858568745
-	The success of the attack is independent of whether the attack was a suicide.
+- P(Success|Suicide)= 0.8928945713686859
+- P(Success|not Suicide)= 0.9319741317491332
+- P(Success * Suicide)= 0.027173219707600848
+- P(Suicide)*P(Success)= 0.02749936858568745
+
+The success of the attack is independent of whether the attack was a suicide.
 
 ### The 9 most dangerous cities according to the number of attacks are:
 	
@@ -105,7 +103,7 @@ We can clearly see that the most dangerous city is Baghdad with 6237 attacks and
 
 It is noticeable  that unknown is only tenth.
 
-### 10 most killed professions
+### 10 most killed professions:
 	
 	[['Private Citizens & Property' '117262.86999997996']
 	 ['Military' '86367.67999999995']
@@ -127,8 +125,7 @@ It is noticeable  that unknown is only tenth.
 	 ['Unknown' '31880.039999999997']
 	 ['Melee' '9802.33']
 	 ['Incendiary' '5042.009998179001']
-	 [ 'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)'
-	  '3102.0']
+	 ['Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)' '3102.0']
 	 ['Chemical' '430.0']
 	 ['Sabotage Equipment' '49.0']
 	 ['Other' '46.0']
@@ -158,8 +155,7 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 	 ['Melee' '3013']
 	 ['Chemical' '231']
 	 ['Sabotage Equipment' '123']
-	 [ 'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)'
-	  '104']
+	 [ 'Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)' '104']
 	 ['Other' '92']
 	 ['Biological' '35']]
 	
@@ -240,13 +236,16 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 
 
 ### The correlation between the number of members and the number of attacks of a group:
-	 The Pearson correlation coefficient between the number of attacks and the members of is: -0.0178216906069
-	 The Pearson correlation coefficient between the number of attacks and the killings of is: 0.965210133435
-	 The Pearson correlation coefficient between the number of killings and the members of is: -0.0131359157301
+	The Pearson correlation coefficient between the number of attacks and the members of is: -0.0178216906069
+	The Pearson correlation coefficient between the number of attacks and the killings of is: 0.965210133435
+	The Pearson correlation coefficient between the number of killings and the members of is: -0.0131359157301
 
 It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
 
 ![Attacks and members](corellationAttacksMembers.png)
 ![Attacks and killings](corellationAttacksKillings.png)
 ![Killings and members](corellationMembersKillings.png)
-	 
+
+
+### Analysis about ISI attacks:
+![Number of attacks by ISI per year](ISIattacksPerYear.png)
