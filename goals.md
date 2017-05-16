@@ -45,3 +45,19 @@ Find more specific goals (what is the most dangerous city to live in, how is the
 	- The distribution of their attack weapons
 	- Is there a correlation between the attacks [the times, can the places be grouped (did they both attack in Europe in the span of a few days)]
 	- Typical attacks, is it the one or the other
+	
+	
+	
+	
+	
+	
+	
+	
+## Phase 2
+	*Draw a map of attacks in an important area (scatter plot)
+	*Find the probability that you will be attacked and killed in a cerrtain city (eg. Baghdad)
+	*By finding probabilities find the typical attacks
+	*Find the city in which you are most likely to be attacked and killed
+	*Draw a bars stacked graph for weapons and countries
+	*Check if ISIS is attacking Europe more 
+	*Make moving averages by 5 year periodes and show than (in respect to attack, ir group)
