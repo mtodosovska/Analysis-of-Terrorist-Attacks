@@ -61,3 +61,4 @@ Find more specific goals (what is the most dangerous city to live in, how is the
 	*Draw a bars stacked graph for weapons and countries
 	*Check if ISIS is attacking Europe more 
 	*Make moving averages by 5 year periodes and show than (in respect to attack, ir group)
+	*Try to do some regression in order to determine unknown values
