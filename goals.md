@@ -17,9 +17,10 @@ From these attributes we could try to find the following information:
 - Number of attacks every year, visualise, and show a trend
 - Number of casualties every year, visualise, and show a trend
 - Numbers of lethal and non-lethal attacks and show them visually
-## Phase 2
 - [possible, if it makes sense] Clusters of geographical locations where attacks happened, the conclusion would be where most attacks occur
 - Is there a correlation between success, suicide, and/or multiple incidents (any combination of two will do, whichever makes the most sense)
+## Phase 2
+
 - Draw a map of attacks in an important area (scatter plot)
 - Find the probability that you will be attacked and killed in a cerrtain city (eg. Baghdad)
 - By finding probabilities find the typical attacks
