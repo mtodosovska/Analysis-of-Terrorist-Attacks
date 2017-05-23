@@ -7,7 +7,7 @@ data = reader = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding
 
 attacks = {}
 for row in data:
-    if row["gname"] == "Islamic State of Iraq (ISI)":
+    if row["gname"] == "Islamic State of Iraq and the Levant (ISIL)":
         eventId = row["eventid"]
         target = row["country_txt"]
         if target in attacks.keys():
