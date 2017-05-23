@@ -29,6 +29,7 @@ From these attributes we could try to find the following information:
 - Check if ISIS is attacking Europe more 
 - Make moving averages by 5 year periodes and show than (in respect to attack, ir group)
 - Try to do some regression in order to determine unknown values
+- Cluster by time in order to determine if there is a corrleation between multiple attacks (not sure if this makes sense).
 
 # Specific goals
 
