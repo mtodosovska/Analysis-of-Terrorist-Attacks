@@ -249,12 +249,14 @@ It is clear that the number of members does not have much influence neither on t
 
 
 ### Analysis about ISIL attacks:
-![Number of attacks by ISI per year](ISILattacksPerYear.png)
-![Weapons used by ISI](ISILweapons.png)
+![Number of attacks by ISIL per year](ISILattacksPerYear.png)
+We can conclude that the number of attacks increases.
 
-From this image we can notice that most common weapon that ISI uses is explosives/bombs/dynamite, which is used in more than a half of their attacks.
+![Weapons used by ISIL](ISILweapons.png)
 
-![ISI's target](ISILtarget.png)
+From this image we can notice that most common weapon that ISIL uses is explosives/bombs/dynamite, which is used in more than a half of their attacks.
+
+![ISIL's target](ISILtarget.png)
 
 From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that most of the attacks so far are registered in Iraq.
 
