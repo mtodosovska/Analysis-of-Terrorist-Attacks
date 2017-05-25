@@ -7,7 +7,7 @@ data = reader = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding
 
 attacks = {}
 for row in data:
-    if row["gname"] == "Islamic State of Iraq (ISI)":
+    if row["gname"] == "Islamic State of Iraq and the Levant (ISIL)":
         eventId = row["eventid"]
         year = int(row["iyear"])
         if year in attacks.keys():
@@ -27,7 +27,7 @@ ax = plt.subplot(111)
 ax.bar(range(len(attacks)), number, width=0.55)
 ax.set_xticks(arange(len(attacks)))
 ax.set_xticklabels(attacks)
-ax.set_title("Number of attacks by ISI per year")
+ax.set_title("Number of attacks by ISIL per year")
 
 
 plt.show()

@@ -26,8 +26,8 @@ fig = plt.figure()
 ax = plt.subplot(111)
 ax.bar(range(len(attacks)), number, width=0.55)
 ax.set_xticks(arange(len(attacks)))
-ax.set_xticklabels(attacks)
-ax.set_title("Countries attacked by ISI")
+ax.set_xticklabels(attacks, rotation=75)
+ax.set_title("Countries attacked by ISIL")
 
 
 plt.show()

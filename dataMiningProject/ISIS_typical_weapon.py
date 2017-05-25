@@ -7,7 +7,7 @@ data = reader = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding
 
 attacks = {}
 for row in data:
-    if row["gname"] == "Islamic State of Iraq (ISI)":
+    if row["gname"] == "Islamic State of Iraq and the Levant (ISIL)":
         eventId = row["eventid"]
         weapon = row["weaptype1_txt"]
         if weapon in attacks.keys():
@@ -26,8 +26,8 @@ fig = plt.figure()
 ax = plt.subplot(111)
 ax.bar(range(len(attacks)), number, width=0.55)
 ax.set_xticks(arange(len(attacks)))
-ax.set_xticklabels(attacks, rotation=15)
-ax.set_title("Weapons used by ISI")
+ax.set_xticklabels(attacks, rotation=55)
+ax.set_title("Weapons used by ISIL")
 
 
 plt.show()

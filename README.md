@@ -248,13 +248,13 @@ It is clear that the number of members does not have much influence neither on t
 ![Killings and members](corellationMembersKillings.png)
 
 
-### Analysis about ISI attacks:
-![Number of attacks by ISI per year](ISIattacksPerYear.png)
-![Weapons used by ISI](ISIweapons.png)
+### Analysis about ISIL attacks:
+![Number of attacks by ISI per year](ISILattacksPerYear.png)
+![Weapons used by ISI](ISILweapons.png)
 
 From this image we can notice that most common weapon that ISI uses is explosives/bombs/dynamite, which is used in more than a half of their attacks.
 
-![ISI's target](ISItarget.png)
+![ISI's target](ISILtarget.png)
 
-From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that all the attacks so far are registered in Iraq.
+From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that most of the attacks so far are registered in Iraq.
 
