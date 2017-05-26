@@ -250,6 +250,7 @@ It is clear that the number of members does not have much influence neither on t
 
 ### Analysis about ISIL attacks:
 ![Number of attacks by ISIL per year](ISILattacksPerYear.png)
+
 We can conclude that the number of attacks increases.
 
 ![Weapons used by ISIL](ISILweapons.png)
