@@ -29,5 +29,4 @@ ax.set_xticks(arange(len(attacks)))
 ax.set_xticklabels(attacks, rotation=55)
 ax.set_title("Weapons used by ISIL")
 
-
 plt.show()
