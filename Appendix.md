@@ -452,3 +452,11 @@ From this image we can notice that most common weapon that ISIL uses is explosiv
 
 From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that most of the attacks so far are registered in Iraq.
 
+### Other popular terrorist organizations:
+In addition, the graphs about few popular terrorist groups are given:
+
+![Al-Quaeda over the years](Al-Qaida_over_years.png)
+
+![Taliban over the years](Taliban_over_years.png)
+
+![Boko Haram over the years](Boko-Haram_over_years.png)
