@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from csv import DictReader
-from sklearn.linear_model import LinearRegression, Lasso, Ridge
+from sklearn.linear_model import Lasso
 
 data = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding="ISO-8859-1"))
 

@@ -220,9 +220,9 @@ If we compare these to the weapons used for the 10 deadliest attacks, we can see
 
 It is clear that the number of members does not have much influence neither on the number of attacks, nor on the number of killings. It is unsurprising that the number of attacks and the number of killings are strongly correlated.
 
-![Attacks and members](corellationAttacksMembers.png)
-![Attacks and killings](corellationAttacksKillings.png)
-![Killings and members](corellationMembersKillings.png)
+![Attacks and members](images/corellationAttacksMembers.png)
+![Attacks and killings](images/corellationAttacksKillings.png)
+![Killings and members](images/corellationMembersKillings.png)
 
 
 ### Number of attacks per country
@@ -440,23 +440,23 @@ Below is the mid-result needed to create the map which consists of all the count
 
 
 ### Analysis about ISIL attacks:
-![Number of attacks by ISIL per year](ISILattacksPerYear.png)
+![Number of attacks by ISIL per year](images/ISILattacksPerYear.png)
 
 We can conclude that the number of attacks increases.
 
-![Weapons used by ISIL](ISILweapons.png)
+![Weapons used by ISIL](images/ISILweapons.png)
 
 From this image we can notice that most common weapon that ISIL uses is explosives/bombs/dynamite, which is used in more than a half of their attacks.
 
-![ISIL's target](ISILtarget.png)
+![ISIL's target](images/ISILtarget.png)
 
 From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that most of the attacks so far are registered in Iraq.
 
 ### Other popular terrorist organizations:
 In addition, the graphs about few popular terrorist groups are given:
 
-![Al-Quaeda over the years](Al-Qaida_over_years.png)
+![Al-Quaeda over the years](images/Al-Qaida_over_years.png)
 
-![Taliban over the years](Taliban_over_years.png)
+![Taliban over the years](images/Taliban_over_years.png)
 
-![Boko Haram over the years](Boko-Haram_over_years.png)
+![Boko Haram over the years](images/Boko-Haram_over_years.png)
