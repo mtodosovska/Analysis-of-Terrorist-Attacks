@@ -62,4 +62,16 @@ Considering different regions in Europe, we have found that in Western Europe th
 
 There was a decrease in attacks from 1994, until 2004. From 2004 the number of attacks per year is steadily growing. However, the number of attacks in 2014 is smaller than the number of attacks in 1999, 2000, and 2001 and smaller than most of the years before these. The number of attacks in 2015 is nearly equal to the number of attacks in 1997, and smaller than nearly all years before. We can conclude that there was a decrease in attacks in the past 20 years, and it is now growing again. Unlike Western Europe, the number of attacks in Eastern Europe has grown dramatically in the past 2 years.
 
+Talking about Western and Eastern Europe, the following graphs show us how the probability of being attacked and being killed has been moving in both of them, accordingly.
+
+![Attacks in Western Europe](pAttackedWE.png)
+![Attacks in Eastern Europe](pAttackedEE.png)
+
+So, we can conclude that in Western Europe the latest years the probability of being attacked has been decreasing, but one outlier (2004) could be noticeable, as an obvious exception. Generally, in Eastern Europe the probability of being attacked increases in the latest years, which is logical conclusion regarding that the number of attacks in the same years has been increased. 
+
+![Attacks in Western Europe](pKilledWE.png)
+![Attacks in Eastern Europe](pKilledEE.png)
+
+Chances of being killed in Western Europe is moving mostly between 0.2 and 0.4 through the passed years, while in Eastern is a big higher, moving around 0.4 and 0.6 in the widest range of years.  
+
 More detailed analysis about the topic and mid results needed to obtain the above results can be found in `Appendix.md` file.

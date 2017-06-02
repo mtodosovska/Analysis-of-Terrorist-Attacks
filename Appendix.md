@@ -436,7 +436,7 @@ Below is the mid-result needed to create the map which consists of all the count
 	Pakistan 12768
 	Iraq 18770
 	
-Note: Some countries in the list don't exist today by the same name by which the attack was registered in certain time period. On the world map, those attacks are added to the countries' names which cover the correspondent region today.
+`Note:` Some countries in the list don't exist today by the same name by which the attack was registered in certain time period. On the world map, those attacks are added to the countries' names which cover the correspondent region today.
 
 
 ### Analysis about ISIL attacks:
