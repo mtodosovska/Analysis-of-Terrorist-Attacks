@@ -56,10 +56,10 @@ There was a decrease in attacks from 1994, until 2004. From 2004 the number of a
 
 Talking about Western and Eastern Europe, the following graphs show us
 
-![Prediction Attacked WE](attacks_WE.png)
-![Prediction Attacked EE](attacks_EE.png)
-![Prediction Killed WE](attacks_WE.png)
-![Prediction Killed EE](attacks_EE.png)
+![Prediction Attacked WE](pAttackedWE.png)
+![Prediction Attacked EE](pAttackedEE.png)
+![Prediction Killed WE](pKilledWE.png)
+![Prediction Killed EE](pKilledEE.png)
 
 
 More detailed analysis about the topic and mid results needed to obtain the above results can be found in `Appendix.md` file.
