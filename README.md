@@ -40,26 +40,26 @@ Next, we decided to find the city that is the most dangerous. We started by find
 
 Probability of around 0.025 means that 1 person in 40 could be attacked. Conclusion is that one is most likely to be attacked in Lima, but most likely to be killed in Belfast if they are attacked.
 
-Considering what concerns us the most, our continent - Europe, we have made the following analysis:
+Considering what concerns us the most, our continent - Europe, we have made the following analysis about 2015, because it's the newest.
+
 ![Safest get attacked](safestGetAttacked.png)
 ![Safest get killed](safestGetKilled.png)
 
-Next, using the linear regression an an approach for modelling, we gain the predictions of the number of attacks in Europe in the few following years.
+There is about 7 times bigger risk to be attacked in Ukraine than in any other European country. Second is France, but still the difference between both of them is big.
+
+In 6 countries the chance a person to be killed once is attacked is very big, over 30%, and in Denmark almost 30%, which is quite high probability.
+
+Next, using the linear regression as an approach for modelling, we gain the predictions of the number of attacks in Europe in the few following years.
 
 ![Predictions in Europe](prediction.png)
 
-Considering different regions in Europe, we have found that in Western Europe the number of attacks has decreased.
+Our prediction is saying that it is expected the number of attacks in future to be growing for about 300 attacks per year, which is alarming.
+
+Considering different regions in Europe, we have found that in Western Europe the number of attacks has been decreasing, generally, but increasing in Eastern.
+
 ![Attacks in Western Europe](attacks_WE.png)
 ![Attacks in Eastern Europe](attacks_EE.png)
 
 There was a decrease in attacks from 1994, until 2004. From 2004 the number of attacks per year is steadily growing. However, the number of attacks in 2014 is smaller than the number of attacks in 1999, 2000, and 2001 and smaller than most of the years before these. The number of attacks in 2015 is nearly equal to the number of attacks in 1997, and smaller than nearly all years before. We can conclude that there was a decrease in attacks in the past 20 years, and it is now growing again. Unlike Western Europe, the number of attacks in Eastern Europe has grown dramatically in the past 2 years.
-
-Talking about Western and Eastern Europe, the following graphs show us
-
-![Prediction Attacked WE](pAttackedWE.png)
-![Prediction Attacked EE](pAttackedEE.png)
-![Prediction Killed WE](pKilledWE.png)
-![Prediction Killed EE](pKilledEE.png)
-
 
 More detailed analysis about the topic and mid results needed to obtain the above results can be found in `Appendix.md` file.
