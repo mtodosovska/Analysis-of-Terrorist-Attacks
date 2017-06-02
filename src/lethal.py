@@ -28,7 +28,6 @@ print("Number of attacks where the number of victims is unknown:", unknown)
 fig = plt.figure()
 ax = fig.add_subplot(111)
 width = 0.5
-#plt.hist([lethal, nonlethal, unknown], bins=[1, 2, 3])
 xTickMarks = ["lethal", "nonlethal", "unknown"]
 ind = arange(3)
 ax.set_xticks(ind + width)

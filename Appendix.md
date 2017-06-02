@@ -225,6 +225,220 @@ It is clear that the number of members does not have much influence neither on t
 ![Killings and members](corellationMembersKillings.png)
 
 
+### Number of attacks per country
+
+Below is the mid-result needed to create the map which consists of all the countries as keys in the dictionary along with their number of attacks as value and the list is sorted by the values - number of attacks. The map produced according to these numbers can be found in the main report.
+
+	South Vietnam 1
+	Andorra 1
+	New Hebrides 1
+	Vatican City 1
+	Falkland Islands 1
+	Gibraltar 1
+	Antigua and Barbuda 1
+	Brunei 1
+	Wallis and Futuna 1
+	North Korea 1
+	St. Lucia 1
+	International 1
+	South Yemen 2
+	Seychelles 2
+	Mauritius 2
+	Equatorial Guinea 2
+	St. Kitts and Nevis 2
+	Vanuatu 2
+	Turkmenistan 2
+	Barbados 3
+	People's Republic of the Congo 3
+	Dominica 3
+	Gambia 3
+	French Polynesia 3
+	Gabon 4
+	Iceland 4
+	Malawi 4
+	Solomon Islands 4
+	Bahamas 5
+	Western Sahara 5
+	Grenada 5
+	Comoros 5
+	Montenegro 5
+	North Yemen 6
+	Romania 6
+	Slovenia 6
+	Bhutan 6
+	Singapore 7
+	Qatar 7
+	French Guiana 7
+	Belize 8
+	Lithuania 8
+	Benin 8
+	Burkina Faso 9
+	Guinea-Bissau 9
+	Czechoslovakia 10
+	Botswana 10
+	Vietnam 10
+	Eritrea 10
+	East Timor 10
+	Serbia-Montenegro 11
+	Serbia 11
+	Martinique 12
+	Belarus 13
+	Finland 15
+	Swaziland 16
+	Luxembourg 16
+	Latvia 16
+	Estonia 16
+	Fiji 17
+	Slovak Republic 17
+	Maldives 17
+	New Zealand 18
+	Mauritania 18
+	Norway 18
+	Ghana 18
+	Malta 20
+	Moldova 20
+	Djibouti 21
+	Republic of the Congo 21
+	Uzbekistan 21
+	United Arab Emirates 22
+	Trinidad and Tobago 22
+	Laos 22
+	Armenia 22
+	Guinea 24
+	Kazakhstan 24
+	Guyana 25
+	Hong Kong 26
+	Madagascar 26
+	Czech Republic 27
+	Kyrgyzstan 28
+	Lesotho 29
+	Cuba 30
+	New Caledonia 31
+	Liberia 33
+	Macau 33
+	Jamaica 34
+	Poland 34
+	Morocco 36
+	South Korea 37
+	East Germany (GDR) 38
+	Denmark 40
+	Hungary 45
+	Azerbaijan 45
+	Taiwan 47
+	Zaire 48
+	Togo 48
+	Tanzania 50
+	Bulgaria 51
+	Guadeloupe 56
+	Croatia 57
+	Zambia 60
+	Ivory Coast 60
+	Suriname 66
+	Costa Rica 67
+	Kuwait 74
+	Uruguay 75
+	Canada 76
+	Malaysia 76
+	Albania 77
+	Soviet Union 78
+	Chad 80
+	Papua New Guinea 81
+	Rhodesia 83
+	Australia 88
+	Dominican Republic 89
+	Paraguay 89
+	Jordan 92
+	Tunisia 92
+	Sierra Leone 97
+	Zimbabwe 98
+	Sweden 102
+	Austria 106
+	Switzerland 107
+	South Sudan 111
+	Niger 116
+	Macedonia 117
+	Senegal 118
+	Netherlands 121
+	Panama 126
+	Cyprus 130
+	Portugal 139
+	Belgium 142
+	Ethiopia 150
+	Namibia 151
+	Rwanda 156
+	Bosnia-Herzegovina 159
+	Cameroon 180
+	Kosovo 180
+	Bahrain 182
+	Tajikistan 184
+	Saudi Arabia 193
+	Central African Republic 202
+	Yugoslavia 203
+	Haiti 212
+	Georgia 212
+	Ecuador 215
+	China 242
+	Cambodia 258
+	Brazil 267
+	Venezuela 269
+	Mozambique 272
+	Ireland 274
+	Bolivia 314
+	Mali 319
+	Honduras 321
+	Myanmar 347
+	Uganda 366
+	Japan 400
+	Democratic Republic of the Congo 459
+	Angola 491
+	Mexico 499
+	Burundi 504
+	Kenya 517
+	West Germany (FRG) 541
+	Germany 649
+	Iran 667
+	Sudan 688
+	Indonesia 714
+	Argentina 804
+	Nepal 923
+	Greece 1200
+	Syria 1468
+	Bangladesh 1513
+	Italy 1545
+	Ukraine 1583
+	Libya 1643
+	Egypt 1799
+	South Africa 1957
+	Nicaragua 1970
+	West Bank and Gaza Strip 1990
+	Guatemala 2050
+	Israel 2085
+	Russia 2104
+	Chile 2334
+	Lebanon 2413
+	Yemen 2598
+	France 2617
+	United States 2693
+	Algeria 2720
+	Nigeria 2888
+	Somalia 2890
+	Sri Lanka 2982
+	Spain 3239
+	Thailand 3338
+	Turkey 3557
+	United Kingdom 4992
+	El Salvador 5320
+	Philippines 5576
+	Peru 6085
+	Colombia 8077
+	Afghanistan 9690
+	India 9940
+	Pakistan 12768
+	Iraq 18770
+	
+Note: Some countries in the list don't exist today by the same name by which the attack was registered in certain time period. On the world map, those attacks are added to the countries' names which cover the correspondent region today.
+
+
 ### Analysis about ISIL attacks:
 ![Number of attacks by ISIL per year](ISILattacksPerYear.png)
 

@@ -1,7 +1,6 @@
 from numpy import *
 import matplotlib.pyplot as plt
 from csv import DictReader
-import scipy as scipy
 
 data = reader = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding="ISO-8859-1"))
 
@@ -70,22 +69,22 @@ print("The Pearson correlation coefficient between the number of attacks and the
 print("The Pearson correlation coefficient between the number of killings and the members of is:", kilMem[0][1])
 
 plt.figure()
-x = cAttacks    # višina je stolpec na indeksu 2
-y = cMembers    # teža   je stolpec na indeksu 3
+x = cAttacks
+y = cMembers
 plt.plot(x, y, "k.")
 plt.xlabel("Attacks")
 plt.ylabel("Members")
 
 plt.figure()
-x = cAttacks    # višina je stolpec na indeksu 2
-y = cKillings    # teža   je stolpec na indeksu 3
+x = cAttacks
+y = cKillings
 plt.plot(x, y, "k.")
 plt.xlabel("Attacks")
 plt.ylabel("Killings")
 
 plt.figure()
-x = cKillings    # višina je stolpec na indeksu 2
-y = cMembers    # teža   je stolpec na indeksu 3
+x = cKillings
+y = cMembers
 plt.plot(x, y, "k.")
 plt.xlabel("Killings")
 plt.ylabel("Members")

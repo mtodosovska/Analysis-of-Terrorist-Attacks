@@ -44,7 +44,6 @@ for row in data:
 population = DictReader(open("countries.csv", "rt", encoding="utf-8"))
 
 people = {}
-#"Country (en)" "Population"
 
 for row in population:
     country = row["Country (en)"]
@@ -53,7 +52,6 @@ for row in population:
 
 print("Populations:", people)
 deathRate = 10.2
-#deathYear = {}#(populationW/1000)*deathRateW
 
 danger = {}
 dangerA = {}

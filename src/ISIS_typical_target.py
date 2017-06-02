@@ -1,7 +1,6 @@
 from numpy import *
 import matplotlib.pyplot as plt
 from csv import DictReader
-# -*- Visualise and show a trend about the location of the attacks carried out by ISIS. -*-
 
 data = reader = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding="ISO-8859-1"))
 

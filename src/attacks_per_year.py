@@ -1,19 +1,9 @@
 from numpy import *
 import matplotlib.pyplot as plt
 from csv import DictReader
-# -*- number of attacks every year, visualise, and show a trend -*-
 
-
-#importing the data
-
-#part 1
-
-# data = loadtxt('data.csv', delimiter=',', skiprows=1)
-# data2 = loadtxt('data_2.csv', delimiter=',', skiprows=1)
-
-# reader = DictReader(open("data_1.csv", "rt", encoding="utf-8"))
-#data = genfromtxt('data_1.csv', delimiter=',', skip_header=1, usecols=(0, 1))
 data = reader = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding="ISO-8859-1"))
+
 events = {}
 i = 0
 for row in data:

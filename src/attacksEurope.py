@@ -1,10 +1,4 @@
-import numpy as np
-import operator
-import matplotlib.pyplot as plt
 from csv import DictReader
-from sklearn.linear_model import LinearRegression, Lasso, Ridge
-from sklearn.metrics import mean_squared_error
-from random import randint
 
 data = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding="ISO-8859-1"))
 
@@ -75,46 +69,6 @@ for row in data:
                 if year in inE:
                     inE[year] += wounded
 
-'''
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(attacksE)), attacksE.values(), width=width)
-ax.set_xticks(np.arange(len(attacksE)) + width/2)
-ax.set_xticklabels(attacksE, rotation=90, fontsize=6)
-ax.set_title("Number of attacks per year -> Eastern Europe")
-
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(attacksW)), attacksW.values(), width=width)
-ax.set_xticks(np.arange(len(attacksW)) + width/2)
-ax.set_xticklabels(attacksW, rotation=90, fontsize=6)
-ax.set_title("Number of attacks per year -> Western Europe")
-
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(killingsW)), killingsW.values(), width=width)
-ax.set_xticks(np.arange(len(killingsW)) + width/2)
-ax.set_xticklabels(killingsW, rotation=90, fontsize=6)
-ax.set_title("Number of killings per year -> Western Europe")
-
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(killingsE)), killingsE.values(), width=width)
-ax.set_xticks(np.arange(len(killingsE)) + width/2)
-ax.set_xticklabels(killingsE, rotation=90, fontsize=6)
-ax.set_title("Number of killings per year -> Eastern Europe")
-
-plt.show()
-
-'''
-
 population = 743100000
 populationW = 397500000
 populationE = population - populationW
@@ -163,40 +117,3 @@ for year in inE.keys():
         pKilledAttackE[year] = 0
     else:
         pKilledAttackE[year] = (pDieInAttackE[year] * pDieE[year])/pAttackedE[year]
-
-'''
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(pKilledAttackE)), pKilledAttackE.values(), width=width)
-ax.set_xticks(np.arange(len(pKilledAttackE)) + width/2)
-ax.set_xticklabels(pKilledAttackE, rotation=90, fontsize=6)
-ax.set_title("Chances of being killed if you have been in an attack -> Eastern Europe")
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(pKilledAttackW)), pKilledAttackW.values(), width=width)
-ax.set_xticks(np.arange(len(pKilledAttackW)) + width/2)
-ax.set_xticklabels(pKilledAttackW, rotation=90, fontsize=6)
-ax.set_title("Chances of being killed if you have been in an attack -> Western Europe")
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(pAttackedE)), pAttackedE.values(), width=width)
-ax.set_xticks(np.arange(len(pAttackedE)) + width/2)
-ax.set_xticklabels(pAttackedE, rotation=90, fontsize=6)
-ax.set_title("Chances of being in an attack -> Eastern Europe")
-
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(pAttackedW)), pAttackedW.values(), width=width)
-ax.set_xticks(np.arange(len(pAttackedW)) + width/2)
-ax.set_xticklabels(pAttackedW, rotation=90, fontsize=6)
-ax.set_title("Chances of being in an attack -> Western Europe")
-
-plt.show()
-'''

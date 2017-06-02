@@ -167,18 +167,3 @@ print("Attack killed:", sorted_attackKilled)
 print("Attack attacked:", sorted_attackAttacked)
 print("Group killed:", sorted_groupKilled)
 print("Group attacked:", sorted_groupAttacked)
-
-'''
-sorted_cityKilled = array(sorted(cityKilled.items(), key=operator.itemgetter(1)))[0:10]
-sorted_cityAttacked = array(sorted(cityAttacks.items(), key=operator.itemgetter(1)))[0:10]
-sorted_countryKilled = array(sorted(countryKilled.items(), key=operator.itemgetter(1)))[0:10]
-sorted_regionKilled = array(sorted(regionKilled.items(), key=operator.itemgetter(1)))[0:10]
-sorted_countryAttacked = array(sorted(countryAttacks.items(), key=operator.itemgetter(1)))[0:10]
-sorted_regionAttacked = array(sorted(regionAttacks.items(), key=operator.itemgetter(1)))[0:10]
-print("City killed:", sorted_cityKilled)
-print("City attacked:", sorted_cityAttacked)
-print("Country killed:", sorted_countryKilled)
-print("Country attacked:", sorted_countryAttacked)
-print("Region killed:", sorted_regionKilled)
-print("Region attacked:", sorted_regionAttacked)
-'''

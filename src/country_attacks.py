@@ -9,10 +9,6 @@ for row in data:
     else:
         country_attacks[country] = 1
 
-for x in country_attacks.keys():
-    print(x," ",country_attacks[x])
-
-
-#for x in country_attacks.keys():
-#    if country_attacks[x] >2000:
-#        print(x," ",country_attacks[x])
+s = [(k, country_attacks[k]) for k in sorted(country_attacks, key=country_attacks.get)]
+for k, v in s:
+    print(k,v)

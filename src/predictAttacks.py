@@ -1,10 +1,7 @@
 import numpy as np
-import operator
 import matplotlib.pyplot as plt
 from csv import DictReader
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
-from sklearn.metrics import mean_squared_error
-from random import randint
 
 data = DictReader(open("globalterrorismdb_0616dist.csv", "rt", encoding="ISO-8859-1"))
 
