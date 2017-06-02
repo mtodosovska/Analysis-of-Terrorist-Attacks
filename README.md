@@ -19,6 +19,7 @@ Okay, but are all these attacks lethal? It wouldn't be that dangerous if the att
 So, it is almost half-half, but still non-lethal attacks' number is bigger.
 
 Let's create a world map where each country is coloured according to the number of attacks, so we have a better visual representation in comparing different countries/regions. 
+Light green areas are safest - with least attacks, yellow areas are around the average, and the red ones are most attacked. For the grey areas, like Greenland or Mongolia, we could say that they are outliers because there are no registered attacks ever. Iraq is an outlier too, so is the only one with dark red (alarming) colour because of the enormous number of attacks.
 
 ![World map of attacks](map_attacks.jpg)
 
@@ -37,4 +38,14 @@ Next, we decided to find the city that is the most dangerous. We started by find
  	Chances of being attacked in Santiago: 0.0192901234568
  	Chances of being killed in an attack in Santiago: 3.1941994905e-08
 
-Conclusion is that one is most likely to be attacked in Lima, but most likely to be killed in Belfast if they are attacked.
+Probability of around 0.025 means that 1 person in 40 could be attacked. Conclusion is that one is most likely to be attacked in Lima, but most likely to be killed in Belfast if they are attacked.
+
+Considering what concerns us the most, our continent - Europe, we have found that in Western Europe this number has decreased.
+![Attacks in Western Europe](attacks_WE.png)
+![Attacks in Eastern Europe](attacks_EE.png)
+
+There was a decrease in attacks from 1994, until 2004. From 2004 the number of attacks per year is steadily growing. However, the number of attacks in 2014 is smaller than the number of attacks in 1999, 2000, and 2001 and smaller than most of the years before these. The number of attacks in 2015 is nearly equal to the number of attacks in 1997, and smaller than nearly all years before. We can conclude that there was a decrease in attacks in the past 20 years, and it is now growing again. Unlike Western Europe, the number of attacks in Eastern Europe has grown dramatically in the past 2 years.
+
+Next, using the linear regression an an approach for modelling, we gain the predictions of the number of attacks in Europe in the few following years.
+
+![Predictions in Europe](prediction.png)
