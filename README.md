@@ -77,7 +77,7 @@ The group that has performed the most attacks is the Taliban. However, groups th
 
 ![Al-Quaeda over the years](images/Al-Qaida_over_years.png)
 
-![Boko Haram over the years](images/Boko-Haram_over_years.png)
+![Boko Haram over the years](images/BokoHaram_over_years.png)
 
 ![Number of attacks by ISIL per year](images/ISIL_over_years.png)
 
