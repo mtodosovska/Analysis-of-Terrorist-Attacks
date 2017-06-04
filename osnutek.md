@@ -1,3 +1,6 @@
+### Project in Data Mining by:
+[![](https://avatars1.githubusercontent.com/u/8987819?v=3&s=150)](https://github.com/DajanaS "Dajana Stojchevska") [![](https://avatars0.githubusercontent.com/u/18115441?v=3&s=150)](https://github.com/mtodosovska "Marija Todosovska") <br />
+
 # Draft
 
 The definition of our goals realised in `README.md` and `Appendix.md` files follows.
@@ -61,6 +64,6 @@ There are multiple attributes concerning ransom for hostages, how much was asked
 
 As terrism has been discussed as a problem more and more lately, we have tried to focus on things of importance, i.e. things that we, as regular people, would like to know about terrorism. As a result we have focused on a couple of different things.
 
-We have looked at the world as a whole and researched whether the number of attacks on a global scale has been rising recently. As well as this, we have researched which countries are most susceptible to terrorist attacks. We have tried to find what the most dangerous city on Earth is, as well as what the chances of being killed of one has been in an attack are.
-Because of the simple reason that we live in Europe, we were interested in its relationship with terrorism. More and more attacks are being reported every year, we wanted to know whether indeed, there are more attacks in Europe. As well as this, we were interested which is the most dangerous country in Europe, and what the chances of being in an attack are.
-We hear the names of certain terroristic groups in the news constantly. We were interested in whether these groups were the ones that carried out most attacks.
+We have looked at the world as a whole and researched whether the number of attacks on a global scale has been rising recently. As well as this, we have researched which countries are most susceptible to terrorist attacks. We have tried to find what the most dangerous city on Earth is, as well as what the chances of being killed, if one has been in an attack, are.
+Because of the simple reason that we live in Europe, we were interested in its relationship with terrorism. More and more attacks are being reported every year, we wanted to know whether, indeed, there are more attacks in Europe. As well as this, we were interested which is the most dangerous country in Europe, and what the chances of being in an attack are.
+We hear the names of certain terrorist groups in the news constantly. We were interested in whether these groups were the ones that carried out most attacks.
