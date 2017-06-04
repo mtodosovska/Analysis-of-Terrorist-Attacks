@@ -1,6 +1,5 @@
 # Analysis of Terrorist Attacks - Report
-### Project in Data Mining by:
-[![](https://avatars1.githubusercontent.com/u/8987819?v=3&s=150)](https://github.com/DajanaS "Dajana Stojchevska") [![](https://avatars0.githubusercontent.com/u/18115441?v=3&s=150)](https://github.com/mtodosovska "Marija Todosovska") <br />
+
 ## Introduction
 Terrorism has become a common social issue. It is defined as the unlawful use of violence and intimidation, especially against civilians, in the pursuit of political aims. It seems as tough we hear about terrorism more and more in the news. Which is more, it seems to be close to us. These are the reasons we chose to explore this area and discover how terrorism has been developing and spreading over the years, as well as the dangers it presents over te world in general.
 
