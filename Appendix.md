@@ -1,5 +1,10 @@
 # Appendix
 
+
+![Lethal vs nonlethal attacks](images/lethal.png)
+
+
+
 All the mid-results and other interesting results that we have found:
 	
 ### Dependence of an attack being a suicide and a success:
@@ -457,6 +462,5 @@ In addition, the graphs about few popular terrorist groups are given:
 
 ![Al-Quaeda over the years](images/Al-Qaida_over_years.png)
 
-![Taliban over the years](images/Taliban_over_years.png)
 
 ![Boko Haram over the years](images/Boko-Haram_over_years.png)

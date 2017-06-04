@@ -72,8 +72,20 @@ Naturally, we were interested in the future, and tried to predict the number of 
 
 We can see that the general trend shows that the number of attacks in Europe in the next five years will grow.
 
+We were interested in the terrorist groups and there statistics as well.
 
+The group that has performed te most attacks is the 'Taliban'. However, groups that have drawn a lot of attention, whether in recent years, or in the past seem to have performed fewer attacks. For example, ISIL is in the 4th place with 2833 attacks, in cotrast with the Taliban, that is 2669 attacks less. This is why we decided to plot the moving averages of the numbers of attacks of the groups that we have noticed are in the news the most, and compare them.
 
+![Taliban over the years](images/Taliban_over_years.png)
 
+![Al-Quaeda over the years](images/Al-Qaida_over_years.png)
+
+![Boko Haram over the years](images/Boko-Haram_over_years.png)
+
+![Number of attacks by ISIL per year](images/ISILattacksPerYear.png)
+
+ As we can see from the graphs, it is clear that ISIL and Al-Qaida have been active in different periods...
+
+A lot of the attacks that have happened lately seem to be suicide attacs, we wondered whether suicide attacks had a better success rate than non-suicide attacks. However, after we calculated the probabilities, we determined that the dependence is minimal, with non-suicide attacks being more successeful.	
 
 The specific definition of our goals can be found in the `osnutek.md` file. More detailed analysis about the topic and mid results needed to obtain the above results can be found in `Appendix.md` file.
