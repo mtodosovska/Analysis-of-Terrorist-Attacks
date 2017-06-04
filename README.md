@@ -84,8 +84,8 @@ The group that has performed te most attacks is the 'Taliban'. However, groups t
 
 ![Number of attacks by ISIL per year](images/ISILattacksPerYear.png)
 
- As we can see from the graphs, it is clear that ISIL and Al-Qaida have been active in different periods...
-
+As we can see from the graphs, Al-Qaida and Boko-Haram have had a smilar number of attack per yer during the years when they hae been active. However, the Taliban and ISIL have had more attacks per year, and in both cases this number has been growing. We can conclude that the only reason that ISIL has fewer attacks than the Taliban is because they have been active only the past few years.
+ 
 A lot of the attacks that have happened lately seem to be suicide attacs, we wondered whether suicide attacks had a better success rate than non-suicide attacks. However, after we calculated the probabilities, we determined that the dependence is minimal, with non-suicide attacks being more successeful.	
 
 The specific definition of our goals can be found in the `osnutek.md` file. More detailed analysis about the topic and mid results needed to obtain the above results can be found in `Appendix.md` file.

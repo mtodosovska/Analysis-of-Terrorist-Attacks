@@ -1,11 +1,10 @@
 # Appendix
 
 
-![Lethal vs nonlethal attacks](images/lethal.png)
-
-
-
 All the mid-results and other interesting results that we have found:
+
+###Lethal vs non-lethal attacks
+![Lethal vs nonlethal attacks](images/lethal.png)
 	
 ### Dependence of an attack being a suicide and a success:
 	
@@ -445,7 +444,6 @@ Below is the mid-result needed to create the map which consists of all the count
 
 
 ### Analysis about ISIL attacks:
-![Number of attacks by ISIL per year](images/ISILattacksPerYear.png)
 
 We can conclude that the number of attacks increases.
 
@@ -456,11 +454,3 @@ From this image we can notice that most common weapon that ISIL uses is explosiv
 ![ISIL's target](images/ISILtarget.png)
 
 From this graph we can conclude that the probability the attack to happen in Iraq is very high because the records about this terrorist organization are saying that most of the attacks so far are registered in Iraq.
-
-### Other popular terrorist organizations:
-In addition, the graphs about few popular terrorist groups are given:
-
-![Al-Quaeda over the years](images/Al-Qaida_over_years.png)
-
-
-![Boko Haram over the years](images/Boko-Haram_over_years.png)
