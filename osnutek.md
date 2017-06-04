@@ -6,15 +6,11 @@ The definition of our goals realised in `README.md` and `Appendix.md` files foll
 
 Our team chose **Global Terrorism** as a topic of this project. We are going to work with the *Global Terrorism Database* which can be found at the following link: [https://www.kaggle.com/START-UMD/gtd](https://www.kaggle.com/START-UMD/gtd)
 
-The database is given in ***CSV*** (comma-separated values) format, where each line of the file is a data record and information are separated by commas.
+The database is given in ***CSV*** (comma-separated values) format, where each line of the file is a data record, and information is separated by commas.
 
-The data set contains the information for over 150 000 terrorist attacks that have occurred around the world between 1970 and 2015 (except for 1993). It contains above 100 attributes describing the attacks. Often, more than one attribute is used to describe the same variable.
+The data set contains the information for over 150 000 terrorist attacks that have occurred around the world, between 1970 and 2015 (except for 1993). It contains above 100 attributes describing the attacks. Often, more than one attribute is used to describe the same variable. For example, there are 4 attributes used in order to determine the date when the attack occurred, the day, month, and year of the attack, and in case these are absent an approximate date. As well as this we have 2 attributes used to express the length of the attack, one of them - `extended`, expresses whether the attack lasted for more than 24 hours, `resolution` shows the date when the situation (attack, hostage situation) ended.
 
-For example, there are 4 attributes used in order to determine the date when the attack occurred, the day, month, and year of the attack, and in case these are absent an approximate date.
-
-As well as this we have 2 attributes used to express the length of the attack, one of them - `extended`, expresses whether the attack lasted for more than 24 hours, `resolution` shows the date when the situation (attack, hostage situation) ended.
-
-Also, we have a wide variety of attributes explaining the place where the event occurred, for example, country, region, city, latitude and longitude. As well as these attributes explaining whether the incident occurred in the city itself or in its vicinity, and the specificity, described as follows:
+We have a wide variety of attributes explaining the place where the event occurred, for example, country, region, city, latitude and longitude. As well as these attributes explaining whether the incident occurred in the city itself or in its vicinity, and the specificity, described as follows:
 
 - 1 = event occurred in city/village/town and lat/long is for that location;
 - 2 = event occurred in city/village/town and no lat/long could be found, so coordinates are for the centroid of smallest sub-national administrative region identified;
@@ -63,38 +59,8 @@ There are multiple attributes concerning ransom for hostages, how much was asked
 
 ## Goals for our project
 
-### Main goals
-In the main goals of our projects belong the following:
+As terrism has been discussed as a problem more and more lately, we have tried to focus on things of importance, i.e. things that we, as regular people, would like to know about terrorism. As a result we have focused on a couple of different things.
 
-- Number of attacks per year, visualise, and show a trend;
-- Number of casualties every year, visualise, and show a trend;
-- Numbers of lethal and non-lethal attacks and show them visually;
-- Show a map of geographical locations where attacks happened, visualise where most attacks occurred;
-- Find the probability that you will be attacked and killed in a certain city (eg. Baghdad);
-- Find the city in which you are most likely to be attacked and killed;
-- Analysis about Europe: chances of being in an attack, chances of being killed in an attack and using linear regression predict the number of attacks in the next 5 years;
-- Analysis of Western and Eastern Europe: number of attacks per year in each, find the probability (chances) of being in an attack in each, as well as probability to be killed.
-
-Results for the above goals can be found in the main Report - `README.md` file.
-
-### Additional goals
-There are also additional goals that we have set which helped for the main goals and here belong the following:
-
-- Correlation between success, suicide attacks (dependence of an attack being the one or another);
-- What is the most dangerous city/country to live in according to number of attacks and according to number of victims, respectively;
-- Top 10 countries with most victims and top 10 most attacked countries;
-- What is the most dangerous profession to be a part of - top 10 most attacked professions, as well as killed;
-- What is the weapon that is used the most and respectively that has killed the most;
-- Which are the most common types of attacks;
-- Which are the most deadliest types of attacks;
-- Which are the groups that claim responsibility most often for the attacks and which are the ones that claim responsibility most often for the lives;
-- Is there a dependency between the number of attacks they have claimed and the number of members they have;
-- List of all the countries with corresponding number of attacks for each, needed for producing the map of all countries;
-- ISI's analysis: number of attacks they had carried out per year, the most common weapon they use, their most common target;
-- Other more popular terrorist organizations analysis.
-
-Results for the above goals can be found in the additional - `Appendix.md` file.
-
-### Conclusion
-
-Analysing the above goals we can easily conclude what is the most dangerous city/country to live in, what is the most dangerous profession to be a part of, what is the weapon that is the most used, which is the one that has killed the most people, the most "popular" terrorist groups. Knowing this information we can think of where to move next and how risky it is for us to visit a certain country/region.
+We have looked at the world as a whole and researched whether the number of attacks on a global scale has been rising recently. As well as this, we have researched which countries are most susceptible to terrorist attacks. We have tried to find what the most dangerous city on Earth is, as well as what the chances of being killed of one has been in an attack are.
+Because of the simple reason that we live in Europe, we were interested in its relationship with terrorism. More and more attacks are being reported every year, we wanted to know whether indeed, there are more attacks in Europe. As well as this, we were interested which is the most dangerous country in Europe, and what the chances of being in an attack are.
+We hear the names of certain terroristic groups in the news constantly. We were interested in whether these groups were the ones that carried out most attacks.
