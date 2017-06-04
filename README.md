@@ -2,10 +2,10 @@
 ### Project in Data Mining by:
 [![](https://avatars1.githubusercontent.com/u/8987819?v=3&s=150)](https://github.com/DajanaS "Dajana Stojchevska") [![](https://avatars0.githubusercontent.com/u/18115441?v=3&s=150)](https://github.com/mtodosovska "Marija Todosovska") <br />
 ## Introduction
-Terrorism has become a common social issue. It is an unlawful act of violence which is used by the terrorists to make people fear and to threaten common public and government in order to achieve some goal.  Their primary target are the civilians of the country which could be any of us. It is pulling the human nation many years back from the proper development. This is why we have decided to research on this topic and make some data analysis, to see how terrorism "improves" and how much it can threaten our lives in future.
+Terrorism has become a common social issue. It is an unlawful act of violence which is used by the terrorists to make people fear and to threaten common public and government in order to achieve some goal.  Their primary target are civilians of the country which could be any of us. It is pulling the human nation many years back from the proper development[It is in the news more and more every day.]. This is why we have decided to research on this topic and make some data analysis, to see how terrorism "improves" and how much it can threaten our lives in future.
 	
 ## Conclusions
-Every year the number of terrorist attacks increases. Is the number alarming? Does the number of casualties increases as the number of attacks increases? The following graphs show us the number of attacks per year and casualties per year.
+Every year the number of terrorist attacks increases. Is the number alarming? Does the number of casualties increase as the number of attacks increases? The following graphs show us the number of attacks per year and casualties per year.
 	
 ![Number of attacks per year](images/attacksPerYear.png)
 ![Casualties per year](images/casualtiesPerYear.png)	
