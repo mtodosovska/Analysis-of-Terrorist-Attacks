@@ -48,37 +48,21 @@ print("ISIS", numISIS)
 print("Boko Haram", numBokoHaram)
 print("Al-Qaida", numAlQaida)
 
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(numTalibans)), numTalibans.values(), width=width)
-ax.set_xticks(np.arange(len(numTalibans)) + width/2)
-ax.set_xticklabels(numTalibans, rotation=90, fontsize=6)
-ax.set_title("Number of attacks per year -> Taliban")
+def draw_graph(num, name_num):
+    fig = plt.figure()
+    ax = plt.subplot(111)
+    width = 0.55
+    ax.bar(range(len(num)), num.values(), width=width)
+    ax.set_xticks(np.arange(len(num)) + width/2)
+    ax.set_xticklabels(num, rotation=90, fontsize=6)
+    ax.set_title(f"Number of attacks per year -> {name_num}")
 
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(numISIS)), numISIS.values(), width=width)
-ax.set_xticks(np.arange(len(numISIS)) + width/2)
-ax.set_xticklabels(numISIS, rotation=90, fontsize=6)
-ax.set_title("Number of attacks per year -> ISIS")
 
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(numBokoHaram)), numBokoHaram.values(), width=width)
-ax.set_xticks(np.arange(len(numBokoHaram)) + width/2)
-ax.set_xticklabels(numBokoHaram, rotation=90, fontsize=6)
-ax.set_title("Number of attacks per year -> Boko Haram")
+draw_graph(numTalibans, 'Talibans')
+draw_graph(numISIS, 'ISIS')
+draw_graph(numBokoHaram, 'Boko Haram')
+draw_graph(numAlQaida, 'Al-Qaida')
 
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(numAlQaida)), numAlQaida.values(), width=width)
-ax.set_xticks(np.arange(len(numAlQaida)) + width/2)
-ax.set_xticklabels(numAlQaida, rotation=90, fontsize=6)
-ax.set_title("Number of attacks per year -> Al-Qaida")
 
 plt.show()
 

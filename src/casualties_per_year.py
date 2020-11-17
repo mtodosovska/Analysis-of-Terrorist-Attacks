@@ -8,7 +8,7 @@ events = {}
 i = 0
 for row in data:
     if i == 0:
-        i+=1
+        i += 1
     else:
         print(i, "Row:", row)
         killed = row["nkill"]

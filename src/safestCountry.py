@@ -73,22 +73,17 @@ print(danger)
 print(dangerA)
 
 
+def draw_graph(danger, sentence):
+    fig = plt.figure()
+    ax = plt.subplot(111)
+    width = 0.55
+    ax.bar(range(len(danger)), danger.values(), width=width)
+    ax.set_xticks(np.arange(len(danger)) + width/2)
+    ax.set_xticklabels(danger, rotation=90, fontsize=6)
+    ax.set_title(sentence)
 
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(dangerA)), dangerA.values(), width=width)
-ax.set_xticks(np.arange(len(dangerA)) + width/2)
-ax.set_xticklabels(dangerA, rotation=90, fontsize=6)
-ax.set_title("Chances of being in an attack -> Europe (2015)")
-
-fig = plt.figure()
-ax = plt.subplot(111)
-width = 0.55
-ax.bar(range(len(danger)), danger.values(), width=width)
-ax.set_xticks(np.arange(len(danger)) + width/2)
-ax.set_xticklabels(danger, rotation=90, fontsize=6)
-ax.set_title("Chances of being killed in an attack -> Europe (2015)")
+draw_graph(dangerA, 'Chances of being in an attack -> Europe (2015)')
+draw_graph(danger, 'Chances of being killed in an attack -> Europe (2015)')
 
 plt.show()
 

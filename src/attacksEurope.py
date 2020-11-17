@@ -11,6 +11,31 @@ inW = {}
 
 i = 0
 
+def get_for_east_west(year, inWE, attacks, killingsWE, killings, wounded):
+    if year not in inWE:
+        inWE[year] = 0
+    if year not in attacks:
+        attacks[year] = 0
+    if year not in killingsWE:
+        killingsWE[year] = 0
+
+    if year in attacks:
+        attacks[year] += 1
+
+    if killings != -9:
+        if year in killingsWE:
+            killingsWE[year] += killings
+
+        if year in inWE:
+            inWE[year] += killings
+
+    if wounded != -9:
+        if year in inWE:
+            inWE[year] += wounded
+
+    return attacks, killings
+
+
 for row in data:
     if i == 0:
         i+=1
@@ -21,53 +46,10 @@ for row in data:
         wounded = float(row["nwound"])
 
         if region == "Western Europe":
-
-            if year not in inW:
-                inW[year] = 0
-            if year not in attacksW:
-                attacksW[year] = 0
-            if year not in killingsW:
-                killingsW[year] = 0
-
-            if year in attacksW:
-                attacksW[year] += 1
-
-            if killings != -9:
-                if year in killingsW:
-                    killingsW[year] += killings
-
-                if year in inW:
-                    inW[year] += killings
-
-            if wounded != -9:
-                if year in inW:
-                    inW[year] += wounded
+            attacksW, killingsW = get_for_east_west(year, inW, attacksW, killingsW, killings, wounded)
 
         if region == "Eastern Europe":
-
-            if year not in inE:
-                inE[year] = 0
-            if year not in attacksE:
-                attacksE[year] = 0
-            if year not in killingsE:
-                killingsE[year] = 0
-
-            if year in attacksE:
-                attacksE[year] += 1
-
-            if year not in inE:
-                inE[year] = 0
-
-            if killings != -9:
-                if year in killingsE:
-                    killingsE[year] += killings
-
-                if year in inE:
-                    inE[year] += killings
-
-            if wounded != -9:
-                if year in inE:
-                    inE[year] += wounded
+            attacksE, killingsE = get_for_east_west(year, inE, attacksE, killingsE, killings, wounded)
 
 population = 743100000
 populationW = 397500000
@@ -85,35 +67,32 @@ pDieE = {}
 pDieW = {}
 
 
-for year in inE.keys():
-    pAttackedE[year] = inE[year]/populationE
+def get_percent(dict, population, res_dict):
+    for year in dict.keys():
+        res_dict[year] = dict[year]/population
+        return res_dict
 
-for year in inW.keys():
-    pAttackedW[year] = inW[year]/populationW
 
-for year in inE.keys():
-    pDieInAttackE[year] = killingsE[year]/deathYearE
+pAttackedE = get_percent(inE, populationE, pAttackedE)
+pAttackedW = get_percent(inW, populationW, pAttackedW)
+pDieInAttackE = get_percent(killingsE, deathYearE, pDieInAttackE)
+pDieInAttackW = get_percent(killingsW, deathYearW, pDieInAttackW)
+pDieE = get_percent(deathYearE, populationE, pDieE)
+pDieW = get_percent(deathYearW, populationW, pDieW)
 
-for year in inW.keys():
-    pDieInAttackW[year] = killingsW[year] / deathYearW
 
-for year in inE.keys():
-    pDieE[year] = deathYearE/populationE
+def get_percent_attacked(inWE, pAttacked, pKilledAttack, pDieInAttack, pDie):
 
-for year in inW.keys():
-    pDieW[year] = deathYearW/populationW
+    for year in inWE.keys():
+        if pAttacked[year] == 0:
+            pKilledAttack[year] = 0
+        else:
+            pKilledAttack[year] = (pDieInAttack[year] * pDie[year])/pAttacked[year]
+    return pKilledAttack
+
 
 pKilledAttackW = {}
 pKilledAttackE = {}
 
-for year in inW.keys():
-    if pAttackedW[year] == 0:
-        pKilledAttackW[year] = 0
-    else:
-        pKilledAttackW[year] = (pDieInAttackW[year] * pDieW[year])/pAttackedW[year]
-
-for year in inE.keys():
-    if pAttackedE[year] == 0:
-        pKilledAttackE[year] = 0
-    else:
-        pKilledAttackE[year] = (pDieInAttackE[year] * pDieE[year])/pAttackedE[year]
+pKilledAttackW = get_percent_attacked(inW, pAttackedW, pKilledAttackW, pDieInAttackW, pDieW)
+pKilledAttackE = get_percent_attacked(inE, pAttackedE, pKilledAttackE, pDieInAttackE, pDieE)
